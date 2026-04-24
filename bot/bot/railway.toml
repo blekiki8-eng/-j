@@ -1,0 +1,8 @@
+[build]
+builder = "NIXPACKS"
+
+[phases.setup]
+nixPkgs = ["python311"]
+
+[start]
+cmd = "python bot/main.py"
